@@ -1,0 +1,8 @@
+Nome,Idade,Sexo,Altura (cm),Peso (kg),Pressão Arterial,Colesterol (mg/dL),Glicemia (mg/dL),Temperatura (°C),Sintomas,Diagnóstico,Medicação,Exames Pendentes
+João Silva,52,M,175,82,130/80,220,110,36.5,Febre e dor de cabeça,Gripe,Paracetamol,Hemograma completo
+Maria Sousa,28,F,160,55,120/70,160,80,36.8,Dor abdominal,Gastrite,Omeprazol 20mg,Endoscopia
+José Santos,85,M,168,65,140/90,200,90,36.4,Tontura e desorientação,AVC,Ácido acetilsalicílico 100mg,Tomografia
+Ana Lima,46,F,170,70,130/80,180,100,37.2,Falta de ar,Asma,Salbutamol 100mcg,Espirometria
+Paulo Costa,71,M,175,78,140/90,220,120,36.7,Dor no peito,Infarto,AAS 100mg,ECG
+Paulo Vitor,35,M,180,85,120/80,190,80,36.6,Dor nas costas,LER,Ibuprofeno 400mg,Radiografia
+joao Vitor,35,M,175,80,130/80,180,90,36.9,Dor de cabeça e náuseas,Enxaqueca,Sumatriptano 100mg,Ressonância magnética

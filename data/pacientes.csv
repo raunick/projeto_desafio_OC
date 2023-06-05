@@ -1,0 +1,9 @@
+Leito,Nome,Idade,Data de Entrada,Risco Paciente,Dt Últ Prescr,Ex Pendente,Permanência,Alta Liberada,Interconsulta
+1,João Silva,52,2023-04-20,Alto,2023-04-26,Lab,8 dias,Sim,Sim
+2,Maria Sousa,28,2023-04-22,Médio,2023-04-27,Sim,6 dias,Não,Não
+3,José Santos,85,2023-04-23,Baixo,2023-04-25,Não,5 dias,Sim,Sim
+4,Ana Lima,46,2023-04-24,Alto,2023-04-27,Sim,4 dias,Não,Resp
+5,Paulo Costa,71,2023-04-26,Médio,2023-04-28,Não,2 dias,Sim,Não
+6,Paulo Vitor,35,2023-04-26,Médio,2023-04-28,Lab,2 dias,Sim,Sim
+VIP,joao Vitor,35,2023-04-26,Baixo,2023-04-28,Não,2 dias,Não,Resp
+

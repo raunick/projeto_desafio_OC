@@ -1,0 +1,14 @@
+Sala,Nome,Idade,Data de Entrada Bloco,Risco Cirúrgico,Dt Saida prevista,Evento Cirúrgico,Permanência hospitalar,Alta Liberada,Nome do Cirurgião,Nome da Cirurgia
+BC1,J. Silva,52,2023-06-04 09:00,Alto,2023-06-04 11:30,🛌 Aguardando cirurgia,2h30min,,Dr. P. Silva,Apêndicectomia
+BC1,M. Sousa,28,2023-06-04 09:15,Médio,2023-06-04 10:30,⏱ Em cirurgia,1h15min,,Dr. C. Lima,Histerectomia
+BC2,J. Santos,85,2023-06-04 10:30,Baixo,2023-06-04 12:00,🛌 Aguardando cirurgia,1h30min,,Dr. R. Sousa,Remoção de verrugas
+BC2,A. Lima,46,2023-06-04 11:00,Alto,2023-06-04 13:00,💉 Em recuperação anestésica,2h,,Dr. A. Costa,Mastectomia
+BC3,P. Costa,71,2023-06-04 11:30,Médio,2023-06-04 13:30,🛌 Aguardando cirurgia,2h,,Dr. L. Oliveira,Vasectomia
+BC3,P. Vitor,35,2023-06-04 12:00,Médio,2023-06-04 14:30,⏱ Em cirurgia,2h30min,,Dr. R. Santos,Colostomia
+BC4,J. Oliveira,29,2023-06-04 12:30,Baixo,2023-06-04 14:00,🛌 Aguardando cirurgia,1h30min,,Dr. G. Mendes,Artroscopia do ombro
+BC4,M. Mendes,41,2023-06-04 13:00,Médio,2023-06-04 14:30,💉 Em recuperação anestésica,1h30min,,Dr. C. Lima,Redução de fratura
+BC5,J. Alves,32,2023-06-04 13:30,Baixo,2023-06-04 15:30,🛌 Aguardando cirurgia,2h,,Dr. P. Souza,Colecistectomia
+BC6,C. Santos,38,2023-06-04 14:00,Alto,2023-06-04 16:00,⏱ Em cirurgia,2h,,Dr. R. Costa,Lipoaspiração
+BO1,A. Souza,23,2023-06-04 09:30,Alto,2023-06-04 11:00,💉 Em recuperação anestésica,1h30min,,Dr. G. Mendes,Parto normal
+BO2,L. Fernandes,31,2023-06-04 10:00,Baixo,2023-06-04 11:30,📤 Alta do bloco,1h30min,Sim,Dr. G. Mendes,Cesariana
+BO1,L. Fernandes,31,2023-06-04 10:00,Baixo,2023-06-04 22:30,📤 Alta do bloco,1h30min,Sim,Dr. V. Mendes,Cesariana

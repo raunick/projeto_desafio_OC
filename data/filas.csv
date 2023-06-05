@@ -1,0 +1,11 @@
+Nº Atendimento,Paciente,Nível de Urgência,Criação Senha,Cadastro Atendimento,Atendimento Médico,Especialidades,Fila,Senha,Tempo de Espera
+1,Ana,Média,03/05/2023 08:00:00,03/05/2023 08:05:00,Dr. José,GINECOLOGIA,Ginecologia,G001,00:05:00
+2,Bruno,Alta,03/05/2023 08:02:00,03/05/2023 08:07:00,Dra. Maria,CLÍNICA MÉDICA,PA Adulto,A001,00:05:00
+3,Carla,Baixa,03/05/2023 08:05:00,03/05/2023 08:10:00,Dr. João,PEDIATRIA,PA Infantil,I001,00:05:00
+4,Daniel,Média,03/05/2023 08:08:00,03/05/2023 08:13:00,Dra. Fernanda,GINECOLOGIA,Ginecologia,G002,00:05:00
+5,Erika,Baixa,03/05/2023 08:10:00,03/05/2023 08:15:00,Dr. Paulo,ORTOPEDIA,PA Adulto,A002,00:05:00
+6,Fabio,Alta,03/05/2023 08:12:00,03/05/2023 08:17:00,Dra. Ana,GINECOLOGIA,Ginecologia,G003,00:05:00
+7,Gabriela,Média,03/05/2023 08:15:00,03/05/2023 08:20:00,Dr. Ricardo,PEDIATRIA,PA Infantil,I002,00:05:00
+8,Henrique,Baixa,03/05/2023 08:18:00,03/05/2023 08:23:00,Dra. Juliana,CIRURGIA GERAL,PA Adulto,A003,00:05:00
+9,Isabela,Média,03/05/2023 08:20:00,03/05/2023 08:25:00,Dr. Rafael,GINECOLOGIA,Ginecologia,G004,00:05:00
+10,João,Alta,03/05/2023 08:22:00,03/05/2023 08:27:00,Dra. Camila,CLÍNICA MÉDICA,PA Adulto,A004,00:05:00
