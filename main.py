@@ -32,7 +32,7 @@ def main():
         with open(arquivo_md, "r", encoding="utf-8") as arquivo:
             # Lê o conteúdo do arquivo
             conteudo_md = arquivo.read()
-            print(conteudo_md)
+            # print(conteudo_md)
 
         # Exibe o conteúdo na aplicação Streamlit
         st.write(conteudo_md)
@@ -61,11 +61,23 @@ def main():
             st.write("# 🚧EM CRIAÇÃO🚧")
     elif opcao == "Pronto Atendimento":
         oppa = st.sidebar.selectbox(
-            "Escolha um Painel:", ["Painel de Senhas", "Painel de pendencias"],
+            "Escolha um Painel:", [
+                "Painel de Senhas", 
+                "Painel de pendencias",
+                "Inteligência Artificial",],
         key='pa')
         st.write("# 🛠 Pronto Atendimento")
         if oppa == "Painel de Senhas":
             painelPA()
+        elif oppa == "Inteligência Artificial":
+            # Abre o arquivo em modo de leitura
+            with open("ia.md", "r", encoding="utf-8") as arquivo:
+                # Lê o conteúdo do arquivo
+                ia = arquivo.read()
+                # print(conteudo_md)
+
+            # Exibe o conteúdo na aplicação Streamlit
+            st.write(ia)
         elif oppa == "Painel de pendencias":
             st.write("# 🚧EM CRIAÇÃO🚧")
     elif opcao == "Unidade de Internação":
