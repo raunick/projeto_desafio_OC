@@ -44,14 +44,12 @@ print(waiting_patterns)
 O código fornecido realiza a identificação de padrões de espera usando o algoritmo K-means, com base nos dados de filas de atendimento presentes no DataFrame queue_data. Vou explicar linha por linha para facilitar o entendimento:
 
 ```python
-Copy code
 import pandas as pd
 from sklearn.cluster import KMeans
 ```
 Essas linhas importam as bibliotecas necessárias: pandas para manipulação de dados em formato de DataFrame e KMeans do sklearn.cluster para realizar o algoritmo de agrupamento K-means.
 
 ```python
-Copy code
 queue_data = pd.DataFrame({
     'horario_chegada': ['09:15', '09:30', '09:45', '10:00', '10:15', '18:00', '18:15', '18:30', '18:45', '19:00'],
     'gravidade_caso': ['Média', 'Baixa', 'Alta', 'Alta', 'Baixa', 'Média', 'Média', 'Baixa', 'Alta', 'Alta'],
@@ -62,32 +60,27 @@ queue_data = pd.DataFrame({
 Essa parte cria o DataFrame queue_data com as informações das filas de atendimento. Cada coluna representa uma informação: horario_chegada é o horário de chegada dos pacientes, gravidade_caso é a gravidade do caso, tempo_espera é o tempo de espera e tempo_atendimento é o tempo de atendimento.
 
 ```python
-Copy code
 X = queue_data[['tempo_espera', 'tempo_atendimento']]
 ```
 Essa linha seleciona as colunas 'tempo_espera' e 'tempo_atendimento' do DataFrame queue_data e armazena em X, que será utilizado como entrada para o algoritmo K-means.
 
 ```python
-Copy code
 kmeans = KMeans(n_clusters=2)
 kmeans.fit(X)
 ```
 Essas linhas criam uma instância do algoritmo K-means com n_clusters=2, indicando que queremos identificar dois clusters. Em seguida, o algoritmo é treinado com os dados X usando o método fit().
 
 ```python
-Copy code
 queue_data['cluster'] = kmeans.labels_
 ```
 Essa linha adiciona uma nova coluna chamada 'cluster' ao DataFrame queue_data e atribui os rótulos dos clusters identificados pelo K-means aos exemplos do conjunto de dados.
 
 ```python
-Copy code
 waiting_patterns = queue_data.groupby('cluster').mean()['tempo_espera']
 ```
 Essa linha agrupa os dados por cluster usando o método groupby(), calcula a média do tempo de espera para cada cluster usando o método mean(), e retorna apenas a coluna 'tempo_espera'. O resultado é armazenado em waiting_patterns.
 
 ```python
-Copy code
 print(waiting_patterns)
 ```
 Por fim, essa linha exibe os padrões de espera identificados, ou seja, as médias do tempo de espera para cada cluster.
