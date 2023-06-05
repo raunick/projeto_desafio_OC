@@ -12,7 +12,7 @@ def main():
         page_icon="🏥",
     )
 
-    st.sidebar.write("Newton v1.0")
+    st.sidebar.write("🍎 Newton v1.0")
     opcao = st.sidebar.selectbox(
         "Escolha uma opção:",
         [
